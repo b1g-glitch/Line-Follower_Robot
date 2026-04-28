@@ -1,5 +1,5 @@
 //Line Follower Robot
-//First install the motor driver for L293D motor driver
+//Install the motor driver for the L293D motor driver
 //Go to Sketch -> Include Library -> Manage Library -> Search for Adafruit Motor Shield V1
 #include <AFMotor.h>
 
@@ -24,13 +24,13 @@ void loop(){
   if(digitalRead(left)==0 && digitalRead(right)==0){
     //Move forward 
     motor1.run(FORWARD);
-    motor1.setSpeed(150); // Run Speed from 0 to 255
+    motor1.setSpeed(150); //Run Speed from 0 to 255
     motor2.run(FORWARD); 
-    motor2.setSpeed(150);// Run Speed from 0 to 255
+    motor2.setSpeed(150); //Run Speed from 0 to 255
     motor3.run(FORWARD);
-    motor3.setSpeed(150);// Run Speed from 0 to 255
+    motor3.setSpeed(150); //Run Speed from 0 to 255
     motor4.run(FORWARD);
-    motor4.setSpeed(150);// Run Speed from 0 to 255
+    motor4.setSpeed(150); //Run Speed from 0 to 255
   }
   //Compare to sensors
   else if(digitalRead(left)==0 && !analogRead(right)==0){
