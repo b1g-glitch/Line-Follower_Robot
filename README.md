@@ -13,10 +13,10 @@ Uses left and right infrared sensors to detect and follow a line autonomously (C
 Uses left and right infrared sensors to detect and follow a line autonomously.
 
 5. **Remote_Controlled_Car(Wired):**
-Control the robot from a computer using a Python WASD controller program and a USB serial connection.
+Control the robot from a computer using a Python WASD controller program (Remote_Control_Car) and a USB serial connection.
    
 7. **Remote_Controlled_Car_Wireless(Wireless via Bluetooth):**
-Control the robot wirelessly from a computer using an HC-05 Bluetooth module and a Python WASD controller program.
+Control the robot wirelessly from a computer using an HC-05 Bluetooth module and a Python WASD controller program (Remote_Control_Car).
 
 ## Hardware 
 ### Components
